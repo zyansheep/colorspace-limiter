@@ -1,14 +1,5 @@
 from PIL import Image
 
-""" r = red
-o = orange
-x = gray
-w = white
-y = yellow
-4 = light pink
-5 = brown
-q = black """
-
 color_list = {
     (int("FF", 16), int("45", 16), int("00", 16)): "r",  # bright red
     (int("FF", 16), int("A8", 16), int("00", 16)): "o",  # orange
